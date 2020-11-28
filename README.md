@@ -1,6 +1,7 @@
 # AVL-augmented-BST
-AVL augmentation for Binary Search Tree
-Python Implementation for AVL Tree
+AVL augmentation for Binary Search Tree.
+
+Python Implementation for AVL Tree.
 
 The Conventional BST tree faces a problem of skweing. Sometimes most of the values in the datastructure are present either to the right of the root or to the left. In these situations the time complexity of operations like insertion, deletion etc., may spike and become linear O(n) rather than O(logn).
 
