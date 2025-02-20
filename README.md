@@ -1,10 +1,27 @@
-# AVL-augmented-BST
-AVL augmentation for Binary Search Tree.
+# AVL-Augmented Binary Search Tree (BST)
 
-Python Implementation for AVL Tree.
+## Overview
 
-The Conventional BST faces a problem of skewness. Sometimes most of the values in the datastructure are either to the right of the root or to the left. In these situations the time complexity of operations like insertion, deletion etc., may spike and become linear O(n) rather than O(logn).
+This repository contains a **Python implementation of an AVL Tree**, an augmented version of the **Binary Search Tree (BST)** that maintains balance to optimize performance.
 
-This is called an Unbalanced Tree. To modify this, AVL agumentation is done to the original Algorithm. This augmentation of algorithm ensures that the tree is balanced making the time complexity O(logn). That's Why AVL Tree is also called self Balancing Tree.
+### 🔹 Why AVL Trees?
+A **conventional BST** can become **skewed** when most values lean heavily toward either the left or right subtree.  
+In such cases, operations like **insertion**, **deletion**, and **search** may degrade from **O(log n)** to **O(n)**.
 
-If you want to know more about the BST, check my other repository named 'Binary Search Tree'
+An **AVL Tree** solves this issue by automatically **balancing itself** after every insertion and deletion, ensuring that the time complexity remains **O(log n)**.
+
+### 🔹 Key Features of AVL Trees:
+- **Self-Balancing**: Ensures that the height difference between left and right subtrees (balance factor) never exceeds **1**.
+- **Improved Efficiency**: Keeps search, insert, and delete operations optimal at **O(log n)**.
+- **Automatic Rotations**: Uses **left** and **right rotations** to maintain balance.
+
+## 📌 Learn More
+For a basic **Binary Search Tree (BST) implementation**, check out my [Binary Search Tree repository](https://github.com/saiiitkgp713/Binary-Search-Tree/tree/main).
+
+---
+
+### 🚀 Contributions & Improvements
+Feel free to contribute by adding:
+- **AVL Tree Traversals (Preorder, Postorder, Level-order)**
+- **Visualizations of Rotations**
+- **Performance Comparisons with Standard BSTs**
